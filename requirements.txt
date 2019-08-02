@@ -12,7 +12,7 @@ flake8==3.5.0
 Flask==1.0.2
 Flask-Cors==3.0.3
 gunicorn==19.9.0
-http-ece==1.0.5
+http-ece==1.1.0
 idna==2.6
 itsdangerous==0.24
 Jinja2>=2.10.1
