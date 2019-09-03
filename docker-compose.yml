@@ -1,0 +1,13 @@
+version: '3.5'
+services:
+  notify-run:
+    build: ./
+    image: notify-run-server
+    restart: always
+    ports:
+      - "8000:8000"
+    volumes:
+      - data:/notify-run
+
+volumes:
+  data:
