@@ -1,2 +1,2 @@
-web: gunicorn notify_run_server:app --workers=4
+web: gunicorn notify_run_server:app --workers=8
 
